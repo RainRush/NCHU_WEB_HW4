@@ -1,0 +1,65 @@
+.carShowBlock {
+  background-color: black;
+  width: 1000px;
+  height: 400px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.carBodyColor {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.colorBlock {
+  display: inline-block;
+  height: 80px;
+  width: 50px;
+  margin: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#blackBlock {
+  background-color: black;
+}
+#blueBlock {
+  background-color: blue;
+}
+#whiteBlock {
+  background-color: white;
+}
+#redBlock {
+  background-color: red;
+}
+
+.carInfo {
+  text-align: center;
+}
+
+.infoDetail {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  width: 400px;
+  border-style: solid;
+  border-width: thin;
+}
+
+.infoDetail h3 {
+  text-align: center;
+}
+
+.infoDetail li {
+  margin-bottom: 20px;
+}
+
+.showButton {
+  color: gray;
+  font-size: 10px;
+  text-align: right;
+  padding-right: 20px;
+}

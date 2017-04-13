@@ -1,6 +1,6 @@
 .carShowBlock {
   background-color: black;
-  width: 1000px;
+  width: 100%;
   height: 400px;
   text-align: center;
   align-items: center;
@@ -27,10 +27,7 @@
   background-color: black;
 }
 #blueBlock {
-  background-color: blue;
-}
-#whiteBlock {
-  background-color: white;
+  background-color: darkblue;
 }
 #redBlock {
   background-color: red;
@@ -38,6 +35,7 @@
 
 .carInfo {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .infoDetail {
@@ -47,6 +45,7 @@
   width: 400px;
   border-style: solid;
   border-width: thin;
+  padding: 10px;
 }
 
 .infoDetail h3 {
@@ -62,4 +61,78 @@
   font-size: 10px;
   text-align: right;
   padding-right: 20px;
+}
+
+#headingSmall {
+  font-size: 14px;
+  color: gray;
+}
+
+.aboutBlackBlock {
+  width: 100%;
+  background-color: maroon;
+}
+
+.themeChoiceButton {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  width: 49%;
+  height: 50px;
+  padding-top:20px;
+  border-style: solid;
+  border-color: maroon;
+}
+
+.withWhiteButtom {
+  border-bottom-color: white;
+}
+
+.themeDetail {
+  color: white;
+  height: 300px;
+  padding:40px;
+}
+
+#teslaLogo {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  background-color: white;
+}
+
+#themeIntro {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px;
+  word-break: normal;
+  width: 800px;
+}
+
+#reference {
+  display: inline-block;
+  vertical-align: top;
+  word-break: normal;
+  width: 800px;
+  margin-right: 50px;
+}
+
+#reference li {
+  font-size: 16pt;
+  margin-bottom: 20px;
+}
+
+#reference span {
+  font-size: 14pt;
+  color: gray;
+}
+
+#myPhoto {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+}
+
+#myPhoto img {
+  border-radius: 80px;
 }

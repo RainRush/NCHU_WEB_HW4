@@ -2,6 +2,8 @@ $(document).ready(function() {
   $("#blueCar").hide();
   $("#redCar").hide();
   $(".moreDetail").hide();
+  $("#about").hide();
+  $("#aboutTheme").hide();
 
   $(".colorBlock").hover(function() {
     $(this).fadeTo(100, 0.5);
@@ -34,7 +36,7 @@ $(document).ready(function() {
   });
 
   $("#moreSafetyButton").click(function() {
-    $("#moreSafetyDetail").slideDown();
+    $("#moreSafetyDetail").slideToggle();
     $("#moreSafetyButton").fadeOut();
     $("#lessSafetyButton").fadeIn("slow");
   });
@@ -46,8 +48,31 @@ $(document).ready(function() {
   });
 
   $("#lessSafetyButton").click(function() {
-    $("#moreSafetyDetail").slideUp();
+    $("#moreSafetyDetail").slideToggle();
     $("#lessSafetyButton").fadeOut();
     $("#moreSafetyButton").fadeIn();
+  });
+
+  $(".switchToOpposite").click(function() {
+    $("#carExhibition").fadeToggle();
+    $("#about").fadeToggle();
+  });
+
+  $("#originButton").click(function() {
+    if(!($("#originButton").hasClass("withWhiteButtom"))) {
+      $("#originButton").addClass("withWhiteButtom");
+      $("#themeButton").removeClass("withWhiteButtom");
+      $("#aboutOrigin").toggle();
+      $("#aboutTheme").toggle();
+    };
+  });
+
+  $("#themeButton").click(function() {
+    if(!($("#themeButton").hasClass("withWhiteButtom"))) {
+      $("#themeButton").addClass("withWhiteButtom");
+      $("#originButton").removeClass("withWhiteButtom");
+      $("#aboutOrigin").toggle();
+      $("#aboutTheme").toggle();
+    };
   });
 });

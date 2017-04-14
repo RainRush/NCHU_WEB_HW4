@@ -90,31 +90,23 @@
 
 .themeDetail {
   color: white;
-  height: 300px;
+  height: 350px;
   padding:40px;
 }
 
-#teslaLogo {
+.aboutImage {
   display: inline-block;
-  height: 300px;
-  width: 300px;
+  height: 25%;
+  width: 25%;
   background-color: white;
 }
 
-#themeIntro {
+.aboutText {
   display: inline-block;
   vertical-align: top;
-  margin-left: 50px;
+  margin-left: 4%;
   word-break: normal;
-  width: 800px;
-}
-
-#reference {
-  display: inline-block;
-  vertical-align: top;
-  word-break: normal;
-  width: 800px;
-  margin-right: 50px;
+  width: 70%;
 }
 
 #reference li {
@@ -125,12 +117,6 @@
 #reference span {
   font-size: 14pt;
   color: gray;
-}
-
-#myPhoto {
-  display: inline-block;
-  height: 300px;
-  width: 300px;
 }
 
 #myPhoto img {
